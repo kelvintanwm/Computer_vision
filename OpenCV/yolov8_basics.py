@@ -12,6 +12,8 @@ image_path = r"C:\Users\Kelvin\Documents\GitHub\Coursera\OpenCV\Keene.jpg" #r"C:
 detection_output = model.predict(source= image_path , conf=0.4, save = True)
 
 # Display tensor array
-print(detection_output)
+#print(detection_output)
+
+# Print numpy array
 
 print(detection_output[0].numpy())

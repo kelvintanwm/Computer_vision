@@ -42,8 +42,16 @@ Thumbs.db
 #######################
 venv
 
-# Image Dataset
-*.png
-*.jpeg
-*.jpg
+# Image Dataset #
+#################
 *.gif
+data/
+runs/
+images/
+
+# Vscode setting #
+##################
+.vscode
+
+# Model #
+*.pt

@@ -1,0 +1,9 @@
+path: data
+train: train/images
+val: valid/images
+test: test/images
+
+# Classes
+names:
+  0: no-vest
+  1: vest
